@@ -1,1 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Nunito+Sans&display=swap');
 /* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+    padding: 0;
+    border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* General Sytle */
+body {
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+section {
+    padding: 3% 0;
+}
+
+    /* header section styles */
+
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    background-color: #ec3944;
+}
+
+header nav a {
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 2px;
+}
+
+
+/* My Name section */
+
+.head-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid purple;
+    background-image: url(/User-Interface-II/Images/city.webp);
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 80%;
+    margin: 0 0 0 8%;
+    background-size: cover;
+}
+
+#title {
+    font-size: 70px;
+}
+
+
+
+/*content section styles*/
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+/* Contact */
+
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    background-color:grey;
+    border-radius: 2px;
+}
